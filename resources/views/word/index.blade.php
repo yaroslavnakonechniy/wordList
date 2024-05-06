@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<a href="{{route('words.index')}}"><button class='btn btn-warning'>en</button></a> / <a href="{{route('words.polish')}}"><button class='btn btn-warning'>pol</button></a>
 <table class="table">
   <thead>
     <tr>
